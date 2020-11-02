@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スライド表示</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div class="CSSgal">
+
+            <!-- Don't wrap targets in parent -->
+            <s id="s1"></s> 
+            <s id="s2"></s>
+            <s id="s3"></s>
+            <s id="s4"></s>
+          
+            <div class="slider">
+              　<div style="background:#5b8;">
+                    <h2>PURE <b>CSS</b> SLIDESHOW</h2>
+                    <p>Responsive Slideshow Gallery created using CSS only<br>by Roko</p>
+                </div>
+                <div style="background:#85b;">
+                    <h2>Slide 2</h2>
+                </div>
+              　<div style="background:#e95;">
+                    <h2>Slide 3</h2>
+                </div>
+                <div style="background:#e59;">
+                    <h2>Slide 4</h2>
+                </div>
+            </div>
+            
+            <div class="prevNext">
+              <div><a href="#s4"></a><a href="#s2"></a></div>
+              <div><a href="#s1"></a><a href="#s3"></a></div>
+              <div><a href="#s2"></a><a href="#s4"></a></div>
+              <div><a href="#s3"></a><a href="#s1"></a></div>
+            </div>
+          
+            <div class="bullets">
+              <a href="#s1">1</a>
+              <a href="#s2">2</a>
+              <a href="#s3">3</a>
+              <a href="#s4">4</a>
+            </div>
+        </div>
+
+        <div class="topMenu">
+            <a href="">ホーム<br><span>Home</span></a>
+            <a href="">プラン・費用<br><span>Plan</span></a>
+            <a href="">制作の流れ<br><span>Flow</span></a>
+            <a href="">制作実績<br><span>Works</span></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="sideBer">
+                <div id="box" class="sideMenu">
+                    <h2>Menu</h2>
+                    <div class="menu">
+                        <a href="">会社概要</a>
+                        <a href="">お問い合わせ</a>
+                        <a href="">スタッフ紹介</a>
+                        <a href="">リンク集</a>
+                        <a href="">よく頂く質問</a>
+                        <a href="">キャンペーン情報</a>
+                    </div>
+                </div>
+
+                <div id="box" class="topic">
+                    <h2>この見出しはh2タグです</h2>
+                    <p>このボックスは、class="box1"と指定すれば出ます。</p>
+                </div>
+
+                <div class="RelatedInfo">
+                    <h2>関連情報</h2>
+                    <div class="infoRink">
+                        <a href="">関連情報リンク</a>
+                        <a href="">関連情報リンク</a>
+                        <a href="">関連情報リンク</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contants">
+                <h2 id="black">更新情報・お知らせ</h2>
+                <div class="info">
+                    <p>2016/12/12 tp_biz40公開。<span>NEW</span></p>
+                    <p>20XX/00/00 サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
+                    <p>20XX/00/00 サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
+                    <p>20XX/00/00 サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
+                    <p>20XX/00/00 サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
+                    <p>20XX/00/00 サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
+                    <p>20XX/00/00 サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
+                </div>
+
+                <h2 id="black">テンプレートのご利用前に必ずお読みください</h2>
+
+                <h2 id="white">利用規約のご案内</h2>
+                <p>このテンプレートは、
+                    <a href="">Template Party</a>にて無料配布している『ビジネスサイト向け 無料ホームページテンプレート tp_biz40』です。必ずダウンロード先のサイトの
+                    <a href="">利用規約</a>をご一読の上でご利用下さい。
+                </p>
+
+                <p>HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</p>
+                <p>わざと見えなく加工する事も禁止です。</p>
+
+                <p>下部の著作を外したい場合は</p>
+                <p>
+                    <a href="">Template Party</a>の
+                    <a href="">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。
+                </p>
+
+                <h2 id="white">メニューなどの開閉ブロック（openclose.js）について</h2>
+                <p>当テンプレートのこれらのjsファイルは<a href="">有限会社クリタス様</a>提供のプログラムを使用しています。jsファイルは改変せずにご利用下さい。
+                    <br>また、当サイトのテンプレート以外に使いたいなど、「プログラムのみ」を使う場合は<a href="">こちらの規約</a>をお守り下さい。
+                </p>
+
+                <h2 id="white">当テンプレートの詳しい使い方は</h2>
+                <a href="">こちらをご覧下さい。</a>
+
+                <h2 id="black">企業向けCMSプログラム販売中</h2>
+                <p>トップページや会社概要ページや業務案内ページなどの各ページレイアウト設定済みのプログラムを販売中です。</p>
+                <a href="">詳しくはこちらをご覧下さい。</a>
+
+                <a href="">↑</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <a href="">会社概要</a>
+            <a href="">お問い合わせ</a>
+            <a href="">スタッフ紹介</a>
+            <a href="">リンク集</a>
+            <a href="">よく頂く質問</a>
+            <a href="">キャンペーン情報</a>
+        </div>
+
+        <div>
+            <a href="">会社概要</a>
+            <a href="">お問い合わせ</a>
+            <a href="">スタッフ紹介</a>
+            <a href="">リンク集</a>
+            <a href="">よく頂く質問</a>
+            <a href="">キャンペーン情報</a>
+        </div>
+
+        <div>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+        </div>
+
+        <div>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+        </div>
+
+        <div>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+            <a href="">サンプルメニュー</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
