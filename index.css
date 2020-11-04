@@ -40,7 +40,6 @@ http://stackoverflow.com/a/34696029/383904
     vertical-align: top;
     height: 100%;
     width: 100%;
-    background: none 50% no-repeat;
     background-size: cover;
 }
 
@@ -147,7 +146,7 @@ http://stackoverflow.com/a/34696029/383904
     text-align: center;
 }
 .CSSgal .slider h2 {
-    margin-top: 40vh;
+    margin: .9em 0;
     font-weight: 200;
     letter-spacing: -0.06em;
     word-spacing: 0.2em;
@@ -158,6 +157,10 @@ http://stackoverflow.com/a/34696029/383904
     margin: 0 3px;
     color: rgba(0,0,0,0.8);
     text-decoration: none;
+}
+
+.tell{
+    margin-bottom: 3em;
 }
 
 /* ヘッダーメニュー */
@@ -182,6 +185,12 @@ http://stackoverflow.com/a/34696029/383904
     font-size: small;
 }
 
+.topMenu a:hover{
+    background: #e4b906;
+    color: white;
+    transition: .5s;
+}
+
 /* メイン */
 main{
     background: #f8f5ee;
@@ -201,18 +210,22 @@ h2{
     margin: 0 0 .9em;
 }
 /* サイドバー */
-.sideBer{
+.sideBar{
     margin: 0 20px;
     width: 17%;
     color: #666;
 }
 
-.sideBer a{
+.sideBar a{
     text-decoration: none;
     background-color: white;
     border-bottom: 1px solid #e4e4e4;
     color: #666;
     padding: 5px 10px;
+}
+
+.sideBar a:hover{
+    color: #222;
 }
 
 #box{
@@ -230,7 +243,7 @@ h2{
     flex-direction: column;
 }
 
-.sideBer h2{
+.sideBar h2{
     border-left: 3px solid black;
 }
 
@@ -242,18 +255,25 @@ h2{
 }
 
 /* contants */
-.contants{
+.contents{
     width: 60%;
     margin-left: .9em;
     color: #666;
 }
 
-.contants a{
+.gray{
     color: #666;
 }
 
-.contants p{
+.gray:hover{
+    color: #222;
+    text-decoration: none;
+}
+
+.contents p{
     font-size: smaller;
+    margin-left: .9em;
+    margin-right: .9em;
 }
 
 #black{
@@ -266,10 +286,11 @@ h2{
     border: 1px solid #e4e4e4;
 }
 
-.contants h2{
+.contents h2{
     padding: .9em;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     border-radius: 4px;
+    margin: .9em auto;
 }
 
 .info{
@@ -282,4 +303,56 @@ h2{
     color: white;
     border-radius: 2px;
     padding: .3em;
+}
+
+.picup{
+    color: black;
+    font-weight: bold;
+}
+
+.pageTop{
+    float: right;
+    background: #333333;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    border-radius: 5px 5px 0 0;
+}
+
+.pageTop:hover{
+    opacity: 0.5;
+    transition: .5s;
+}
+
+
+/* フッター */
+.footerMenu{
+    background: #222;
+    display: flex;
+    justify-content: center;
+}
+
+.footerMenu a{
+    color: white;
+    font-size: small;
+    margin-bottom: .5em;
+}
+
+.footerMenu a:hover{
+    text-decoration: none;
+}
+
+.footerMenu div{
+    display: flex;
+    flex-direction: column;
+    margin: .9em auto;
+    align-items: flex-start;
+}
+
+.copyright{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    font-size: .5em;
+    padding: .5em;
 }

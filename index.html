@@ -9,7 +9,7 @@
 
 <body>
     <header>
-        <div class="CSSgal">
+        <div id="1" class="CSSgal">
 
             <!-- Don't wrap targets in parent -->
             <s id="s1"></s> 
@@ -18,9 +18,14 @@
             <s id="s4"></s>
           
             <div class="slider">
-              　<div style="background:#5b8;">
-                    <h2>PURE <b>CSS</b> SLIDESHOW</h2>
-                    <p>Responsive Slideshow Gallery created using CSS only<br>by Roko</p>
+              　<div class="slide1" style="background:black;">
+                    <h2>Sample Company</h2>
+                    <p>あなたのページをレスポンシブ仕様に！</p>
+                    <div class="tell">
+                        <h3>TEL:0120-000-000</h3>
+                        <p>AM9:00~PM6:00 水曜定休</p>
+                    </div>
+
                 </div>
                 <div style="background:#85b;">
                     <h2>Slide 2</h2>
@@ -58,7 +63,7 @@
 
     <main>
         <div class="container">
-            <div class="sideBer">
+            <div class="sideBar">
                 <div id="box" class="sideMenu">
                     <h2>Menu</h2>
                     <div class="menu">
@@ -86,7 +91,7 @@
                 </div>
             </div>
 
-            <div class="contants">
+            <div class="contents">
                 <h2 id="black">更新情報・お知らせ</h2>
                 <div class="info">
                     <p>2016/12/12 tp_biz40公開。<span>NEW</span></p>
@@ -102,80 +107,86 @@
 
                 <h2 id="white">利用規約のご案内</h2>
                 <p>このテンプレートは、
-                    <a href="">Template Party</a>にて無料配布している『ビジネスサイト向け 無料ホームページテンプレート tp_biz40』です。必ずダウンロード先のサイトの
-                    <a href="">利用規約</a>をご一読の上でご利用下さい。
+                    <a class="gray" href="">Template Party</a>にて無料配布している『ビジネスサイト向け 無料ホームページテンプレート tp_biz40』です。必ずダウンロード先のサイトの
+                    <a class="gray" href="">利用規約</a>をご一読の上でご利用下さい。
                 </p>
 
-                <p>HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</p>
+                <p class="picup">■HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</p>
                 <p>わざと見えなく加工する事も禁止です。</p>
 
-                <p>下部の著作を外したい場合は</p>
+                <p class="picup">■下部の著作を外したい場合は</p>
                 <p>
-                    <a href="">Template Party</a>の
-                    <a href="">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。
+                    <a class="gray" href="">Template Party</a>の
+                    <a class="gray" href="">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。
                 </p>
 
                 <h2 id="white">メニューなどの開閉ブロック（openclose.js）について</h2>
-                <p>当テンプレートのこれらのjsファイルは<a href="">有限会社クリタス様</a>提供のプログラムを使用しています。jsファイルは改変せずにご利用下さい。
-                    <br>また、当サイトのテンプレート以外に使いたいなど、「プログラムのみ」を使う場合は<a href="">こちらの規約</a>をお守り下さい。
+                <p>当テンプレートのこれらのjsファイルは<a class="gray" href="">有限会社クリタス様</a>提供のプログラムを使用しています。jsファイルは改変せずにご利用下さい。
+                    <br>また、当サイトのテンプレート以外に使いたいなど、「プログラムのみ」を使う場合は<a class="gray" href="">こちらの規約</a>をお守り下さい。
                 </p>
 
                 <h2 id="white">当テンプレートの詳しい使い方は</h2>
-                <a href="">こちらをご覧下さい。</a>
+                <p><a class="gray" href="">こちらをご覧下さい。</a></p>
 
                 <h2 id="black">企業向けCMSプログラム販売中</h2>
-                <p>トップページや会社概要ページや業務案内ページなどの各ページレイアウト設定済みのプログラムを販売中です。</p>
-                <a href="">詳しくはこちらをご覧下さい。</a>
+                <p>トップページや会社概要ページや業務案内ページなどの各ページレイアウト設定済みのプログラムを販売中です。
+                    <br><a class="gray" href="">詳しくはこちらをご覧下さい。</a>
+                </p>
 
-                <a href="">↑</a>
+                <a class="pageTop" href="#1">↑</a>
             </div>
         </div>
     </main>
 
     <footer>
-        <div>
-            <a href="">会社概要</a>
-            <a href="">お問い合わせ</a>
-            <a href="">スタッフ紹介</a>
-            <a href="">リンク集</a>
-            <a href="">よく頂く質問</a>
-            <a href="">キャンペーン情報</a>
+        <div class="footerMenu">
+            <div>
+                <a href="">ホーム</a>
+                <a href="">プラン・費用</a>
+                <a href="">制作の流れ</a>
+                <a href="">制作実績</a>
+            </div>
+    
+            <div>
+                <a href="">会社概要</a>
+                <a href="">お問い合わせ</a>
+                <a href="">スタッフ紹介</a>
+                <a href="">リンク集</a>
+                <a href="">よく頂く質問</a>
+                <a href="">キャンペーン情報</a>
+            </div>
+    
+            <div>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+            </div>
+    
+            <div>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+            </div>
+    
+            <div>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+                <a href="">メニューサンプル</a>
+            </div>
         </div>
-
-        <div>
-            <a href="">会社概要</a>
-            <a href="">お問い合わせ</a>
-            <a href="">スタッフ紹介</a>
-            <a href="">リンク集</a>
-            <a href="">よく頂く質問</a>
-            <a href="">キャンペーン情報</a>
-        </div>
-
-        <div>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-        </div>
-
-        <div>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-        </div>
-
-        <div>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
-            <a href="">サンプルメニュー</a>
+        
+        <div class="copyright">
+            <p>Copyright© Sample Company All Rights Reserved.</p>
+            <p>《Web Design:Template-Party》</p>
         </div>
     </footer>
     
